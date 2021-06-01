@@ -175,7 +175,6 @@ class ExpandoBox(QComboBox):
             self._previous = Previous(index, text)
             
     def onTextEdit(self, text: str) -> None:
-        print('text edit')
         if text == '':  # blank editor
             self.showPopup()  # show all options
         else:
