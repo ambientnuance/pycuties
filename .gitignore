@@ -1,0 +1,7 @@
+/.pytest_cache/
+/.hypothesis/
+/.vscode/
+/build/
+/dist/
+*.egg-info/
+__pycache__/
